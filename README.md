@@ -7,7 +7,7 @@ git clone https://github.com/Ayadi-Hassen/Jumia-end-to-end-test
 cd Jumia-end-to-end-test
 
 
-npm install
+
 
 
 ## Usage
