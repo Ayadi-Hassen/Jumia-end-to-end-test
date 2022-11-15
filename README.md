@@ -42,7 +42,7 @@ search= driver.find_element(By.ID,'fi-q').send_keys("cable iphone")
 rechercher=driver.find_element(By.XPATH,'//*[@id="search"]/button').click()
 
 ```
-## Creat Order 
+## Create Order 
 
 This will allow to buy product. We have used different ways for example: By.ID, By.XPATH, By.NAME... 
 
