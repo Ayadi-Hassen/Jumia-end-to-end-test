@@ -48,7 +48,7 @@ search= driver.find_element(By.ID,'fi-q').send_keys("cable iphone")
 rechercher=driver.find_element(By.XPATH,'//*[@id="search"]/button').click()
 
 ```
-- Identify the product search bar with the method fin_elemnt(By.ID,"put the ID")
+- Identify the product search bar with the method find_elemnt(By.ID,"put the ID")
 - Send keys for example: "Choose The product"
 
 ## Create Order 
@@ -60,7 +60,7 @@ This will allow to buy product. We have used different ways for example: By.ID, 
 buy_product=driver.find_element(By.XPATH,'//*[@id="add-to-cart"]/button/span').click()
 
 ```
-- Identify the buy button with the method fin_elemnt(By.XPATH,"put the XPATH")
+- Identify the buy button with the method find_elemnt(By.XPATH,"put the XPATH")
 - Add to cart with the function click()
 - Confirm the order 
 
@@ -74,7 +74,7 @@ cancel_order_button=driver.find_element(By.XPATH,'//*[@id="jm"]/main/div/section
 
 ```
 - You need to run the script cancel_order.py 
-- Identify the cancellation button with the method fin_elemnt().
+- Identify the cancellation button with the method find_elemnt().
 - Select the quantity of products with Select method. 
 - Select the reason for the cancellation of the order with Select method. 
 
