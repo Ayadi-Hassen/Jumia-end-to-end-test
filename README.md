@@ -43,40 +43,35 @@ This will allow access to your jumia account.
 ## Search Product 
 This will allow to find product 
 
-```python
-search= driver.find_element(By.ID,'fi-q').send_keys("cable iphone")
-rechercher=driver.find_element(By.XPATH,'//*[@id="search"]/button').click()
 
-```
-- Identify the product search bar with the method find_elemnt(By.ID,"put the ID")
+- Identify the product search bar. 
 - Send keys for example: "Choose The product"
 
 ## Create Order 
 
-This will allow to buy product. We have used different ways for example: By.ID, By.XPATH, By.NAME... 
+This will allow to buy product. 
 
 ```python
 
-buy_product=driver.find_element(By.XPATH,'//*[@id="add-to-cart"]/button/span').click()
+python create_order.py  
 
 ```
-- Identify the buy button with the method find_elemnt(By.XPATH,"put the XPATH")
-- Add to cart with the function click()
-- Confirm the order 
+- Identify the buy button.
+- Add to cart.
+- Confirm the order. 
 
 ## Cancel Order 
-This will allow how to cancel the order. We have used the SELECT method for example : select_by_index, select_by_value.
+This will allow how to cancel the order.
 
 ```python
 
-your_orders=driver.find_element(By.XPATH,'//*[@id="dpdw-login-box"]/div/a[2]').click()
-cancel_order_button=driver.find_element(By.XPATH,'//*[@id="jm"]/main/div/section/div/div/section[2]/article/div/div[2]/form/button').click()
+python cancel_order.py
 
 ```
 - You need to run the script cancel_order.py 
-- Identify the cancellation button with the method find_elemnt().
-- Select the quantity of products with Select method. 
-- Select the reason for the cancellation of the order with Select method. 
+- Identify the cancellation button.
+- Select the quantity of products. 
+- Select the reason for the cancellation. 
 
 ## Want to help 
 If you like this application, please star this repository.
